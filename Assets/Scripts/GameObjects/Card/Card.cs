@@ -69,6 +69,10 @@ public class Card : MonoBehaviour
     public void SetMatched()
     {
         isMatched = true;
+
+        // Disable button to keep player from flipping it
+        GetComponent<Button>().interactable = false;
+
         if (outlineMaterial != null && frontImage != null)
         {
             frontImage.material = outlineMaterial;
