@@ -7,6 +7,7 @@ public class Card : MonoBehaviour
     public GameObject front;
     public GameObject back;
     public static event System.Action<Card> OnAnyCardClicked;
+    public static event System.Action<Card> OnAnyCardFlipped;
 
     [HideInInspector]
     public int cardId; // Used to identify pairs
@@ -62,6 +63,7 @@ public class Card : MonoBehaviour
         {
             audioSource.PlayOneShot(flipSound);
         }
+        OnAnyCardFlipped?.Invoke(this);
     }
 
     public void SetMatched()
