@@ -1,7 +1,6 @@
 
 https://github.com/user-attachments/assets/4be3f2e0-865f-4679-9be9-bbf959132da9
 
-https://github.com/user-attachments/assets/8bb058b2-0b92-40c9-a03c-83319146dde1
 # MiniMatch - Memory Card Game
 
 A cognitive assessment memory card matching game built in Unity.
