@@ -1,3 +1,5 @@
+
+https://github.com/user-attachments/assets/8bb058b2-0b92-40c9-a03c-83319146dde1
 # MiniMatch - Memory Card Game
 
 A cognitive assessment memory card matching game built in Unity.
@@ -69,3 +71,6 @@ A cognitive assessment memory card matching game built in Unity.
 3. Install TextMeshPro package if prompted
 5. Recommended to run in Free Aspect/1980*1080
 
+## Gameplay
+
+Uploading 2025-07-25 10-49-39.mp4…
